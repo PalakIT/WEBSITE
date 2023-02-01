@@ -1,0 +1,35 @@
+*
+{
+margin:0px;
+padding:8px;
+text-decoration:none;
+text-transform:capitalize;
+}
+body
+{
+background:url("https://th.bing.com/th/id/OIP._2NbugNNE-AnMX8jTddJpgHaFj?w=257&h=193&c=7&r=0&o=5&pid=1.7");
+background-position: center;
+background-size:cover;
+}
+header
+{
+display:flex;
+position:fixed;
+justify-content:space-between;
+right=0;
+left=0;
+top=0;
+}
+.logo
+{
+font-size:20px;
+color:black;
+}
+header .navbar ul
+{
+list-style:none;
+}
+header .navbar ul li{
+position:relative;
+float:left;
+}
